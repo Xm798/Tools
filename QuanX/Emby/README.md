@@ -1,5 +1,5 @@
 ## Emby Unlock
 ```
 [rewrite_remote]
-https://raw.githubusercontent.com/exsense/cookies/main/Rewrite/emby.qxrewrite, tag=Emby Premiere, update-interval=86400, enabled=true
+https://cdn.jsdelivr.net/gh/Xm798/Tools/QuanX/Emby/emby.rewrite.conf, tag=Emby Premiere, update-interval=86400, enabled=true
 ```

@@ -1,0 +1,7 @@
+#!name=Redirect NUAA websites to HTTPS
+#!desc=重定向南航网站到HTTPS
+
+[URL Rewrite]
+^http://nuaa\.edu\.cn https://authserver\.nuaa\.edu\.cn 302
+^http://authserver\.nuaa\.edu\.cn https://authserver\.nuaa\.edu\.cn 302
+^http://*\.nuaa\.edu\.cn https://authserver\.nuaa\.edu\.cn 302

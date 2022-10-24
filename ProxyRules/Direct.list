@@ -9,6 +9,9 @@ DOMAIN-SUFFIX,parallels.com
 IP-CIDR,43.154.14.106/32
 IP-CIDR,43.154.14.106/32,no-resolve
 
+#Tracker
+DOMAIN-KEYWORD,tracker
+
 #淘宝
 DOMAIN,eco.taobao.com
 

@@ -1,113 +1,222 @@
 # > PT 站点列表，去除教育网 PT 站
 # > 数据来源于 PTPP
 
-DOMAIN-SUFFIX, hdbits.org		# HDB
-DOMAIN-SUFFIX, ccfbits.org		# CCFBits
-DOMAIN-SUFFIX, baconbits.org		# bB
-DOMAIN-SUFFIX, aither.cc		# Aither
-DOMAIN-SUFFIX, nicept.net		# NicePT
-DOMAIN-SUFFIX, brokenstones.club		# BRKS
-DOMAIN-SUFFIX, beitai.pt		# 备胎
-DOMAIN-SUFFIX, gazellegames.net		# GGN
-DOMAIN-SUFFIX, ptsbao.club		# 烧包
-DOMAIN-SUFFIX, asiancinema.me		# AsianCinema
-DOMAIN-SUFFIX, pttime.org		# pttime
-DOMAIN-SUFFIX, animebytes.tv		# AB
-DOMAIN-SUFFIX, orpheus.network		# OPS
-DOMAIN-SUFFIX, kp.m-team.cc		# M-Team
-DOMAIN-SUFFIX, skyey2.com		# SkyeySnow
-DOMAIN-SUFFIX, skyeysnow.com        # SkyeySnow
-DOMAIN-SUFFIX, hdchina.org		# HDChina
-DOMAIN-SUFFIX, hd-torrents.org		# HD-Torrents
-DOMAIN-SUFFIX, pt.soulvoice.club		# 聆音Club
-DOMAIN-SUFFIX, haidan.video		# HaiDan
-DOMAIN-SUFFIX, animetorrents.me		# AnimeTorrents
-DOMAIN-SUFFIX, lztr.me		# LzTr
-DOMAIN-SUFFIX, hdarea.co		# HDArea
-DOMAIN-SUFFIX, cinemaz.to		# CinemaZ
-DOMAIN-SUFFIX, torrentseeds.org		# TorrentSeeds
-DOMAIN-SUFFIX, 52pt.site		# 52PT
-DOMAIN-SUFFIX, exoticaz.to		# ExoticaZ
-DOMAIN-SUFFIX, hdtime.org		# HDTime
-DOMAIN-SUFFIX, pt.hdbd.us		# 伊甸园
-DOMAIN-SUFFIX, cgpeers.com		# CGPeers
-DOMAIN-SUFFIX, passthepopcorn.me		# PTP
-DOMAIN-SUFFIX, empornium.is		# Empornium
-DOMAIN-SUFFIX, pt.hd4fans.org		# HD4FANS
-DOMAIN-SUFFIX, hd-space.org		# HD-Space
-DOMAIN-SUFFIX, cinemageddon.net		# CinemaGeddon
-DOMAIN-SUFFIX, pt.eastgame.org		# TLFBits
-DOMAIN-SUFFIX, blutopia.xyz		# Blutopia
-DOMAIN-SUFFIX, hdfans.org		# HDFans
-DOMAIN-SUFFIX, jpopsuki.eu		# JPopsuki
-DOMAIN-SUFFIX, springsunday.net		# SSD
-DOMAIN-SUFFIX, hddolby.com		# HD Dolby
-DOMAIN-SUFFIX, filelist.io		# FileList
-DOMAIN-SUFFIX, htpt.cc		# 海棠PT
-DOMAIN-SUFFIX, ourbits.club		# OurBits
-DOMAIN-SUFFIX, npupt.com		# NPUBits
-DOMAIN-SUFFIX, pt.hdupt.com		# HDU
-DOMAIN-SUFFIX, shadowthein.net		# inTheShadow
-DOMAIN-SUFFIX, alpharatio.cc		# AlphaRatio
-DOMAIN-SUFFIX, oppaiti.me		# Oppaitime
-DOMAIN-SUFFIX, hdhome.org		# HDHome
-DOMAIN-SUFFIX, joyhd.net		# JoyHD
-DOMAIN-SUFFIX, privatehd.to		# PrivateHD
-DOMAIN-SUFFIX, anthelion.me		# Anthelion
-DOMAIN-SUFFIX, bibliotik.me		# Bibliotik
-DOMAIN-SUFFIX, beyond-hd.me		# BeyondHD
-DOMAIN-SUFFIX, hitpt.com		# 百川PT
-DOMAIN-SUFFIX, pt.keepfrds.com		# PT@KEEPFRDS
-DOMAIN-SUFFIX, tjupt.org		# 北洋园
-DOMAIN-SUFFIX, et8.org		# TorrentCCF
-DOMAIN-SUFFIX, open.cd		# OpenCD
-DOMAIN-SUFFIX, torrentday.com		# TorrentsTD
-DOMAIN-SUFFIX, thegeeks.click		# TG
-DOMAIN-SUFFIX, hdroute.org		# HDRoute
-DOMAIN-SUFFIX, redacted.ch		# RED
-DOMAIN-SUFFIX, teamhd.org		# TeamHD
-DOMAIN-SUFFIX, morethantv.me		# MTV
-DOMAIN-SUFFIX, hd.ai		# HDAI
-DOMAIN-SUFFIX, bemaniso.ws		# Bemaniso
-DOMAIN-SUFFIX, pt.msg.vg		# PTMSG
-DOMAIN-SUFFIX, pt.hdpost.top		# HDPOST
-DOMAIN-SUFFIX, hdf.world		# HD-Forever
-DOMAIN-SUFFIX, jptv.club		# JPTV
-DOMAIN-SUFFIX, pterclub.com		# PTer
-DOMAIN-SUFFIX, avistaz.to		# AvistaZ
-DOMAIN-SUFFIX, pthome.net		# PTHome
-DOMAIN-SUFFIX, chdbits.co		# CHDBits
-DOMAIN-SUFFIX, snakepop.art		# Snakepop
-DOMAIN-SUFFIX, uhdbits.org		# UHDBits
-DOMAIN-SUFFIX, greatposterwall.com		# GPW
-DOMAIN-SUFFIX, sugoimusic.me		# SugoiMusic
-DOMAIN-SUFFIX, concertos.live		# Concertos
-DOMAIN-SUFFIX, extremlymtorrents.ws		# XTR
-DOMAIN-SUFFIX, u2.dmhy.org		# U2
-DOMAIN-SUFFIX, 1ptba.com		# 1PTBar
-DOMAIN-SUFFIX, totheglory.im		# TTG
-DOMAIN-SUFFIX, pt.btschool.club		# BTSCHOOL
-DOMAIN-SUFFIX, dicmusic.club		# DIC
-DOMAIN-SUFFIX, pornbits.net		# Pornbits
-DOMAIN-SUFFIX, bt.byr.cn		# BYRBT
-DOMAIN-SUFFIX, hdsky.me		# HDSky
-DOMAIN-SUFFIX, cinematik.net		# Cinematik
-DOMAIN-SUFFIX, lemonhd.org		# LemonHD
-DOMAIN-SUFFIX, broadcasthe.net		# BTN
-DOMAIN-SUFFIX, hdzone.me		# HDZone
-DOMAIN-SUFFIX, avgv.cc		# 爱薇网
-DOMAIN-SUFFIX, bwtorrents.tv		# BWT
-DOMAIN-SUFFIX, karagarga.in		# KaraGarga
-DOMAIN-SUFFIX, pussytorrents.org		# pussytorrents
-DOMAIN-SUFFIX, iptorrents.com		# IPTorrents
-DOMAIN-SUFFIX, gfxpeers.net		# GFXPeers
-DOMAIN-SUFFIX, ultrahd.net		# UltraHD
-DOMAIN-SUFFIX, aidoru-online.me		# Aidoru!Online
-DOMAIN-SUFFIX, myanonamouse.net		# MyAnonaMouse
-DOMAIN-SUFFIX, sdbits.org		# SDBits
-DOMAIN-SUFFIX, nanyangpt.com		# 南洋PT
-DOMAIN-SUFFIX, discfan.net		# DiscFan
-DOMAIN-SUFFIX, torrentleech.org		# TorrentLeech
-DOMAIN-SUFFIX, hdatmos.club		# HDATMOS
-DOMAIN-SUFFIX, hdcity.city		# HDCity
-DOMAIN-SUFFIX, nebulance.io		# Nebulance
+# HDB
+DOMAIN-SUFFIX, hdbits.org
+# CCFBits
+DOMAIN-SUFFIX, ccfbits.org
+# bB
+DOMAIN-SUFFIX, baconbits.org
+# Aither
+DOMAIN-SUFFIX, aither.cc
+# NicePT
+DOMAIN-SUFFIX, nicept.net
+# BRKS
+DOMAIN-SUFFIX, brokenstones.club
+# 备胎
+DOMAIN-SUFFIX, beitai.pt
+# GGN
+DOMAIN-SUFFIX, gazellegames.net
+# 烧包
+DOMAIN-SUFFIX, ptsbao.club
+# AsianCinema
+DOMAIN-SUFFIX, asiancinema.me
+# pttime
+DOMAIN-SUFFIX, pttime.org
+# AB
+DOMAIN-SUFFIX, animebytes.tv
+# OPS
+DOMAIN-SUFFIX, orpheus.network
+# M-Team
+DOMAIN-SUFFIX, kp.m-team.cc
+# SkyeySnow
+DOMAIN-SUFFIX, skyey2.com
+DOMAIN-SUFFIX, skyeysnow.com
+# HDChina
+DOMAIN-SUFFIX, hdchina.org
+# HD-Torrents
+DOMAIN-SUFFIX, hd-torrents.org
+# 聆音Club
+DOMAIN-SUFFIX, pt.soulvoice.club
+# HaiDan
+DOMAIN-SUFFIX, haidan.video
+# AnimeTorrents
+DOMAIN-SUFFIX, animetorrents.me
+# LzTr
+DOMAIN-SUFFIX, lztr.me
+# HDArea
+DOMAIN-SUFFIX, hdarea.co
+# CinemaZ
+DOMAIN-SUFFIX, cinemaz.to
+# TorrentSeeds
+DOMAIN-SUFFIX, torrentseeds.org
+# 52PT
+DOMAIN-SUFFIX, 52pt.site
+# ExoticaZ
+DOMAIN-SUFFIX, exoticaz.to
+# HDTime
+DOMAIN-SUFFIX, hdtime.org
+# 伊甸园
+DOMAIN-SUFFIX, pt.hdbd.us
+# CGPeers
+DOMAIN-SUFFIX, cgpeers.com
+# PTP
+DOMAIN-SUFFIX, passthepopcorn.me
+# Empornium
+DOMAIN-SUFFIX, empornium.is
+# HD4FANS
+DOMAIN-SUFFIX, pt.hd4fans.org
+# HD-Space
+DOMAIN-SUFFIX, hd-space.org
+# CinemaGeddon
+DOMAIN-SUFFIX, cinemageddon.net
+# TLFBits
+DOMAIN-SUFFIX, pt.eastgame.org
+# Blutopia
+DOMAIN-SUFFIX, blutopia.xyz
+# HDFans
+DOMAIN-SUFFIX, hdfans.org
+# JPopsuki
+DOMAIN-SUFFIX, jpopsuki.eu
+# SSD
+DOMAIN-SUFFIX, springsunday.net
+# HD Dolby
+DOMAIN-SUFFIX, hddolby.com
+# FileList
+DOMAIN-SUFFIX, filelist.io
+# 海棠PT
+DOMAIN-SUFFIX, htpt.cc
+# OurBits
+DOMAIN-SUFFIX, ourbits.club
+# NPUBits
+DOMAIN-SUFFIX, npupt.com
+# HDU
+DOMAIN-SUFFIX, pt.hdupt.com
+# inTheShadow
+DOMAIN-SUFFIX, shadowthein.net
+# AlphaRatio
+DOMAIN-SUFFIX, alpharatio.cc
+# Oppaitime
+DOMAIN-SUFFIX, oppaiti.me
+# HDHome
+DOMAIN-SUFFIX, hdhome.org
+# JoyHD
+DOMAIN-SUFFIX, joyhd.net
+# PrivateHD
+DOMAIN-SUFFIX, privatehd.to
+# Anthelion
+DOMAIN-SUFFIX, anthelion.me
+# Bibliotik
+DOMAIN-SUFFIX, bibliotik.me
+# BeyondHD
+DOMAIN-SUFFIX, beyond-hd.me
+# 百川PT
+DOMAIN-SUFFIX, hitpt.com
+# PT@KEEPFRDS
+DOMAIN-SUFFIX, pt.keepfrds.com
+# 北洋园
+DOMAIN-SUFFIX, tjupt.org
+# TorrentCCF
+DOMAIN-SUFFIX, et8.org
+# OpenCD
+DOMAIN-SUFFIX, open.cd
+# TorrentsTD
+DOMAIN-SUFFIX, torrentday.com
+# TG
+DOMAIN-SUFFIX, thegeeks.click
+# HDRoute
+DOMAIN-SUFFIX, hdroute.org
+# RED
+DOMAIN-SUFFIX, redacted.ch
+# TeamHD
+DOMAIN-SUFFIX, teamhd.org
+# MTV
+DOMAIN-SUFFIX, morethantv.me
+# HDAI
+DOMAIN-SUFFIX, hd.ai
+# Bemaniso
+DOMAIN-SUFFIX, bemaniso.ws
+# PTMSG
+DOMAIN-SUFFIX, pt.msg.vg
+# HDPOST
+DOMAIN-SUFFIX, pt.hdpost.top
+# HD-Forever
+DOMAIN-SUFFIX, hdf.world
+# JPTV
+DOMAIN-SUFFIX, jptv.club
+# PTer
+DOMAIN-SUFFIX, pterclub.com
+# AvistaZ
+DOMAIN-SUFFIX, avistaz.to
+# PTHome
+DOMAIN-SUFFIX, pthome.net
+# CHDBits
+DOMAIN-SUFFIX, chdbits.co
+# Snakepop
+DOMAIN-SUFFIX, snakepop.art
+# UHDBits
+DOMAIN-SUFFIX, uhdbits.org
+# GPW
+DOMAIN-SUFFIX, greatposterwall.com
+# SugoiMusic
+DOMAIN-SUFFIX, sugoimusic.me
+# Concertos
+DOMAIN-SUFFIX, concertos.live
+# XTR
+DOMAIN-SUFFIX, extremlymtorrents.ws
+# U2
+DOMAIN-SUFFIX, u2.dmhy.org
+# 1PTBar
+DOMAIN-SUFFIX, 1ptba.com
+# TTG
+DOMAIN-SUFFIX, totheglory.im
+# BTSCHOOL
+DOMAIN-SUFFIX, pt.btschool.club
+# DIC
+DOMAIN-SUFFIX, dicmusic.club
+# Pornbits
+DOMAIN-SUFFIX, pornbits.net
+# BYRBT
+DOMAIN-SUFFIX, bt.byr.cn
+# HDSky
+DOMAIN-SUFFIX, hdsky.me
+# Cinematik
+DOMAIN-SUFFIX, cinematik.net
+# LemonHD
+DOMAIN-SUFFIX, lemonhd.org
+# BTN
+DOMAIN-SUFFIX, broadcasthe.net
+# HDZone
+DOMAIN-SUFFIX, hdzone.me
+# 爱薇网
+DOMAIN-SUFFIX, avgv.cc
+# BWT
+DOMAIN-SUFFIX, bwtorrents.tv
+# KaraGarga
+DOMAIN-SUFFIX, karagarga.in
+# pussytorrents
+DOMAIN-SUFFIX, pussytorrents.org
+# IPTorrents
+DOMAIN-SUFFIX, iptorrents.com
+# GFXPeers
+DOMAIN-SUFFIX, gfxpeers.net
+# UltraHD
+DOMAIN-SUFFIX, ultrahd.net
+# Aidoru!Online
+DOMAIN-SUFFIX, aidoru-online.me
+# MyAnonaMouse
+DOMAIN-SUFFIX, myanonamouse.net
+# SDBits
+DOMAIN-SUFFIX, sdbits.org
+# 南洋PT
+DOMAIN-SUFFIX, nanyangpt.com
+# DiscFan
+DOMAIN-SUFFIX, discfan.net
+# TorrentLeech
+DOMAIN-SUFFIX, torrentleech.org
+# HDATMOS
+DOMAIN-SUFFIX, hdatmos.club
+# HDCity
+DOMAIN-SUFFIX, hdcity.city
+# Nebulance
+DOMAIN-SUFFIX, nebulance.io

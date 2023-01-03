@@ -1,14 +1,10 @@
 # Rules for 规则修正
 
 DOMAIN-SUFFIX,sharepoint.com
-DOMAIN,xm.mk
-DOMAIN-SUFFIX,hk.xm.mk
 DOMAIN-SUFFIX,ghproxy.com
 DOMAIN-SUFFIX,bce.baidu.com
 DOMAIN-SUFFIX,parallels.com
 DOMAIN-SUFFIX,account-cn.alibabacloud.com
-IP-CIDR,43.154.14.106/32
-IP-CIDR,43.154.14.106/32,no-resolve
 
 #Tracker
 DOMAIN-KEYWORD,tracker

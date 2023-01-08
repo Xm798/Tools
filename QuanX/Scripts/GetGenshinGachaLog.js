@@ -2,9 +2,9 @@
 /***********************
 [rewrite_local]
 # 获取原神祈愿记录
-^https?:\/\/(hk4e-api\.mihoyo\.com|hk4e-api-os\.hoyoverse\.com|hk4e-api\.mihoyo\.com)\/event\/gacha_info\/api\/getGachaLog url script-request-header https://raw.githubusercontent.com/Xm798/Tools/main/QuanX/Scripts/GetGenshinGachaLog.js
+^https?:\/\/(hk4e-api\.mihoyo\.com|hk4e-api-os\.hoyoverse\.com)\/event\/gacha_info\/api\/getGachaLog url script-request-header https://raw.githubusercontent.com/Xm798/Tools/main/QuanX/Scripts/GetGenshinGachaLog.js
 [mitm] 
-hostname = hk4e-api.mihoyo.com, hk4e-api-os.hoyoverse.com, hk4e-api.mihoyo.com
+hostname = hk4e-api.mihoyo.com, hk4e-api-os.hoyoverse.com
 */
 
 const $ = API('GetGachaLog');

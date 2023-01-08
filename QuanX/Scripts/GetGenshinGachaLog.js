@@ -10,7 +10,7 @@ hostname = hk4e-api.mihoyo.com, hk4e-api-os.hoyoverse.com, hk4e-api.mihoyo.com
 const $ = API('GetGachaLog');
 
 const gacha_url = $request.url
-if (gacha_url) {
+if (gacha_url && str.indexOf("page=1") != -1) {
     $.notify('原神抽卡记录获取成功', '', gacha_url);
     $.info('原神抽卡记录获取成功🎉\n' + gacha_url);
 } else {

@@ -9,6 +9,15 @@ DOMAIN-SUFFIX,account-cn.alibabacloud.com
 #Tracker
 DOMAIN-KEYWORD,tracker
 
+# 阿里云
+DOMAIN-SUFFIX,console.aliyun.com
+DOMAIN-SUFFIX,usercenter2.aliyun.com
+DOMAIN-SUFFIX,developer.aliyun.com
+
+#Plex
+DOMAIN-SUFFIX,plex.direct
+DOMAIN-SUFFIX,plex.tv
+
 #淘宝
 DOMAIN,eco.taobao.com
 

@@ -1,13 +1,16 @@
-# Rules for 规则修正
+PROCESS-NAME,qbittorrent
+PROCESS-NAME,qbittorrent.exe
+PROCESS-NAME,transmission
+PROCESS-NAME,utorrent
+PROCESS-NAME,webtorrent
+PROCESS-NAME,tcping
 
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,ghproxy.com
 DOMAIN-SUFFIX,bce.baidu.com
 DOMAIN-SUFFIX,parallels.com
 DOMAIN-SUFFIX,account-cn.alibabacloud.com
-
-#Tracker
-DOMAIN-KEYWORD,tracker
+DOMAIN-SUFFIX,loli.net
 
 # 阿里云
 DOMAIN-SUFFIX,console.aliyun.com
@@ -24,39 +27,3 @@ DOMAIN,eco.taobao.com
 #Ondrive
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,files.1drv.com
-
-#Apple
-# > Apple API
-DOMAIN-KEYWORD,apple.com.akadns.net
-DOMAIN-KEYWORD,icloud.com.akadns.net
-DOMAIN-KEYWORD,apple.com.akadns.net
-DOMAIN-KEYWORD,icloud.com.akadns.net
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,apple-livephotoskit.com
-DOMAIN-SUFFIX,apple-mapkit.com
-DOMAIN-SUFFIX,applemusic.com
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,apzones.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
-IP-CIDR,17.0.0.0/8
-IP-CIDR,63.92.224.0/19
-IP-CIDR,65.199.22.0/23
-IP-CIDR,139.178.128.0/18
-IP-CIDR,144.178.0.0/19
-IP-CIDR,144.178.36.0/22
-IP-CIDR,144.178.48.0/20
-IP-CIDR,192.35.50.0/24
-IP-CIDR,198.183.17.0/24
-IP-CIDR,205.180.175.0/24
-
-# > Apple News
-DOMAIN-SUFFIX,apple.comscoreresearch.com
-DOMAIN-SUFFIX,apple.news

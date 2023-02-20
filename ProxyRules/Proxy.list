@@ -5,3 +5,5 @@ DOMAIN,translate.googleapis.com
 DOMAIN,haruka-bot.sk415.icu
 DOMAIN-SUFFIX,loli.net
 DOMAIN-SUFFIX,github.com
+
+IP-ASN,20940,no-resolve

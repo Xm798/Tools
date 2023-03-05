@@ -1,13 +1,13 @@
 /***********************
 [rewrite_local]
-#^https:\/\/app-api\.pixiv\.net\/v1\/user\/detail url script-response-body https://raw.githubusercontent.com/Xm798/Tools/main/QuanX/Scripts/pixiv.js
-^https:\/\/oauth\.secure\.pixiv\.net\/auth\/token url script-response-body https://raw.githubusercontent.com/Xm798/Tools/main/QuanX/Scripts/pixiv.js
-^https:\/\/app-api\.pixiv\.net\/v1\/search\/illust\?.*sort=(popular_desc|popular_female_desc|popular_male_desc) url script-request-header https://raw.githubusercontent.com/Xm798/Tools/main/QuanX/Scripts/pixiv.js 
+#^https:\/\/app-api\.pixiv\.net\/v1\/user\/detail url script-response-body https://cdn.jsdelivr.net/gh/Xm798/Tools@main/QuanX/Scripts/pixiv.js
+^https:\/\/oauth\.secure\.pixiv\.net\/auth\/token url script-response-body https://cdn.jsdelivr.net/gh/Xm798/Tools@main/QuanX/Scripts/pixiv.js
+^https:\/\/app-api\.pixiv\.net\/v1\/search\/illust\?.*sort=(popular_desc|popular_female_desc|popular_male_desc) url script-request-header https://cdn.jsdelivr.net/gh/Xm798/Tools@main/QuanX/Scripts/pixiv.js 
 
-^https:\/\/www\.pixiv\.net\/touch\/ajax\/user\/self\/status url script-response-body https://raw.githubusercontent.com/Xm798/Tools/main/QuanX/Scripts/pixiv.js
-^https:\/\/www\.pixiv\.net\/touch\/ajax_api\/ajax_api\.php\?mode=get_user_data url script-response-body https://raw.githubusercontent.com/Xm798/Tools/main/QuanX/Scripts/pixiv.js
-^https:\/\/www\.pixiv\.net\/?$ url script-response-body https://raw.githubusercontent.com/Xm798/Tools/main/QuanX/Scripts/pixiv.js
-#^https:\/\/www.pixiv.net\/.*?.php\?mode=r18 url script-response-body https://raw.githubusercontent.com/Xm798/Tools/main/QuanX/Scripts/pixiv.js
+^https:\/\/www\.pixiv\.net\/touch\/ajax\/user\/self\/status url script-response-body https://cdn.jsdelivr.net/gh/Xm798/Tools@main/QuanX/Scripts/pixiv.js
+^https:\/\/www\.pixiv\.net\/touch\/ajax_api\/ajax_api\.php\?mode=get_user_data url script-response-body https://cdn.jsdelivr.net/gh/Xm798/Tools@main/QuanX/Scripts/pixiv.js
+^https:\/\/www\.pixiv\.net\/?$ url script-response-body https://cdn.jsdelivr.net/gh/Xm798/Tools@main/QuanX/Scripts/pixiv.js
+#^https:\/\/www.pixiv.net\/.*?.php\?mode=r18 url script-response-body https://cdn.jsdelivr.net/gh/Xm798/Tools@main/QuanX/Scripts/pixiv.js
 
 [mitm] 
 hostname = app-api.pixiv.net,oauth.secure.pixiv.net,www.pixiv.net

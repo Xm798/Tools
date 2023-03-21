@@ -1,6 +1,6 @@
 payload:
-  - '+.learnku.com'
-  - 'translate.googleapis.com'
-  - 'haruka-bot.sk415.icu'
-  - '+.loli.net'
-  - 'fonts.googleapis.com'
+  - DOMAIN-SUFFIX,learnku.com
+  - DOMAIN,translate.googleapis.com
+  - DOMAIN,haruka-bot.sk415.icu
+  - DOMAIN-SUFFIX,loli.net
+  - DOMAIN,fonts.googleapis.com

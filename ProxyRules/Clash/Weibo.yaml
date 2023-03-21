@@ -1,8 +1,8 @@
 payload:
-  - '+.weibo.cn'
-  - '+.weibo.com'
-  - '+.sina.cn'
-  - '+.sinaimg.cn'
-  - '+.sina.com.cn'
-  - '+.sinajs.cn'
-  - '+.weibocdn.com'
+  - DOMAIN-SUFFIX,weibo.cn
+  - DOMAIN-SUFFIX,weibo.com
+  - DOMAIN-SUFFIX,sina.cn
+  - DOMAIN-SUFFIX,sinaimg.cn
+  - DOMAIN-SUFFIX,sina.com.cn
+  - DOMAIN-SUFFIX,sinajs.cn
+  - DOMAIN-SUFFIX,weibocdn.com

@@ -1,11 +1,13 @@
 payload:
-  - PROCESS-NAME,qbittorrent
-  - PROCESS-NAME,qbittorrent.exe
-  - PROCESS-NAME,transmission
-  - PROCESS-NAME,utorrent
-  - PROCESS-NAME,webtorrent
-  - PROCESS-NAME,tcping
-  - DOMAIN-SUFFIX,sharepoint.com
+  - PROCESS-NAME,dig,DIRECT
+  - PROCESS-NAME,BestTrace,DIRECT
+  - PROCESS-NAME,qbittorrent,DIRECT
+  - PROCESS-NAME,tcping,DIRECT
+  - PROCESS-NAME,clash,DIRECT
+  - PROCESS-NAME,qBittorrent,DIRECT
+  - PROCESS-NAME,Transmission,DIRECT
+  - PROCESS-NAME,uTorrent,DIRECT
+  - PROCESS-NAME,WebTorrent,DIRECT
   - DOMAIN-SUFFIX,ghproxy.com
   - DOMAIN-SUFFIX,bce.baidu.com
   - DOMAIN-SUFFIX,parallels.com
@@ -15,6 +17,7 @@ payload:
   - DOMAIN-SUFFIX,developer.aliyun.com
   - DOMAIN-SUFFIX,plex.direct
   - DOMAIN-SUFFIX,plex.tv
-  - DOMAIN,eco.taobao.com
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,files.1drv.com

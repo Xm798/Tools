@@ -1,11 +1,15 @@
-PROCESS-NAME,qbittorrent
-PROCESS-NAME,qbittorrent.exe
-PROCESS-NAME,transmission
-PROCESS-NAME,utorrent
-PROCESS-NAME,webtorrent
-PROCESS-NAME,tcping
+# Processes
+PROCESS-NAME,dig,DIRECT
+PROCESS-NAME,BestTrace,DIRECT
+PROCESS-NAME,qbittorrent,DIRECT
+PROCESS-NAME,tcping,DIRECT
+PROCESS-NAME,clash,DIRECT
+PROCESS-NAME,qBittorrent,DIRECT
+PROCESS-NAME,Transmission,DIRECT
+PROCESS-NAME,uTorrent,DIRECT
+PROCESS-NAME,WebTorrent,DIRECT
 
-DOMAIN-SUFFIX,sharepoint.com
+# 域名修正
 DOMAIN-SUFFIX,ghproxy.com
 DOMAIN-SUFFIX,bce.baidu.com
 DOMAIN-SUFFIX,parallels.com
@@ -21,8 +25,9 @@ DOMAIN-SUFFIX,plex.direct
 DOMAIN-SUFFIX,plex.tv
 
 #淘宝
-DOMAIN,eco.taobao.com
+DOMAIN-SUFFIX,taobao.com
 
 #Ondrive
+DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,storage.live.com
 DOMAIN-SUFFIX,files.1drv.com

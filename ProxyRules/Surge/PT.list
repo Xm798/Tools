@@ -2,223 +2,274 @@
 # > 数据来源于 PTPP
 
 # HDB
-DOMAIN-SUFFIX,hdbits.org
+DOMAIN, hdbits.org
 # CCFBits
-DOMAIN-SUFFIX,ccfbits.org
+DOMAIN, ccfbits.org
 # bB
-DOMAIN-SUFFIX,baconbits.org
+DOMAIN, baconbits.org
 # Aither
-DOMAIN-SUFFIX,aither.cc
+DOMAIN, aither.cc
+# kamept 
+DOMAIN, kamept.com
 # NicePT
-DOMAIN-SUFFIX,nicept.net
+DOMAIN, nicept.net
 # BRKS
-DOMAIN-SUFFIX,brokenstones.club
+DOMAIN, brokenstones.club
 # 备胎
-DOMAIN-SUFFIX,beitai.pt
+DOMAIN, beitai.pt
 # GGN
-DOMAIN-SUFFIX,gazellegames.net
+DOMAIN, gazellegames.net
+# HDmayi
+DOMAIN, hdmayi.com
 # 烧包
-DOMAIN-SUFFIX,ptsbao.club
+DOMAIN, ptsbao.club
 # AsianCinema
-DOMAIN-SUFFIX,asiancinema.me
+DOMAIN, asiancinema.me
 # pttime
-DOMAIN-SUFFIX,pttime.org
+DOMAIN, pttime.org
 # AB
-DOMAIN-SUFFIX,animebytes.tv
+DOMAIN, animebytes.tv
 # OPS
-DOMAIN-SUFFIX,orpheus.network
+DOMAIN, orpheus.network
 # M-Team
-DOMAIN-SUFFIX,m-team.cc
+DOMAIN, kp.m-team.cc
 # SkyeySnow
-DOMAIN-SUFFIX,skyey2.com
-DOMAIN-SUFFIX,skyeysnow.com
+DOMAIN, skyey2.com
 # HDChina
-DOMAIN-SUFFIX,hdchina.org
+DOMAIN, hdchina.org
 # HD-Torrents
-DOMAIN-SUFFIX,hd-torrents.org
+DOMAIN, hd-torrents.org
 # 聆音Club
-DOMAIN-SUFFIX,soulvoice.club
+DOMAIN, pt.soulvoice.club
 # HaiDan
-DOMAIN-SUFFIX,haidan.video
-# AnimeTorrents
-DOMAIN-SUFFIX,animetorrents.me
+DOMAIN, haidan.video
 # LzTr
-DOMAIN-SUFFIX,lztr.me
+DOMAIN, lztr.me
 # HDArea
-DOMAIN-SUFFIX,hdarea.co
-# CinemaZ
-DOMAIN-SUFFIX,cinemaz.to
+DOMAIN, hdarea.co
+# HaresClub
+DOMAIN, club.hares.top
 # TorrentSeeds
-DOMAIN-SUFFIX,torrentseeds.org
+DOMAIN, torrentseeds.org
 # 52PT
-DOMAIN-SUFFIX,52pt.site
-# ExoticaZ
-DOMAIN-SUFFIX,exoticaz.to
+DOMAIN, 52pt.site
 # HDTime
-DOMAIN-SUFFIX,hdtime.org
+DOMAIN, hdtime.org
 # 伊甸园
-DOMAIN-SUFFIX,hdbd.us
+DOMAIN, pt.hdbd.us
 # CGPeers
-DOMAIN-SUFFIX,cgpeers.com
+DOMAIN, cgpeers.com
+# Monika
+DOMAIN, monikadesign.uk
+# Farm
+DOMAIN, pt.0ff.cc
 # PTP
-DOMAIN-SUFFIX,passthepopcorn.me
-# Empornium
-DOMAIN-SUFFIX,empornium.is
+DOMAIN, passthepopcorn.me
 # HD4FANS
-DOMAIN-SUFFIX,hd4fans.org
+DOMAIN, pt.hd4fans.org
 # HD-Space
-DOMAIN-SUFFIX,hd-space.org
+DOMAIN, hd-space.org
 # CinemaGeddon
-DOMAIN-SUFFIX,cinemageddon.net
+DOMAIN, cinemageddon.net
 # TLFBits
-DOMAIN-SUFFIX,eastgame.org
-# Blutopia
-DOMAIN-SUFFIX,blutopia.xyz
+DOMAIN, pt.eastgame.org
+# SpeedApp
+DOMAIN, speedapp.io
 # HDFans
-DOMAIN-SUFFIX,hdfans.org
+DOMAIN, hdfans.org
 # JPopsuki
-DOMAIN-SUFFIX,jpopsuki.eu
+DOMAIN, jpopsuki.eu
 # SSD
-DOMAIN-SUFFIX,springsunday.net
+DOMAIN, springsunday.net
 # HD Dolby
-DOMAIN-SUFFIX,hddolby.com
+DOMAIN, hddolby.com
+# ihdbits
+DOMAIN, ihdbits.me
 # FileList
-DOMAIN-SUFFIX,filelist.io
+DOMAIN, filelist.io
 # 海棠PT
-DOMAIN-SUFFIX,htpt.cc
+DOMAIN, htpt.cc
 # OurBits
-DOMAIN-SUFFIX,ourbits.club
+DOMAIN, ourbits.club
 # NPUBits
-DOMAIN-SUFFIX,npupt.com
+DOMAIN, npupt.com
 # HDU
-DOMAIN-SUFFIX,hdupt.com
+DOMAIN, pt.hdupt.com
+# jptvts.us
+DOMAIN, jptvts.us
+# HDVideo
+DOMAIN, hdvideo.one
+# 国语视界
+DOMAIN, cnlang.org
+# filept
+DOMAIN, filept.com
+# Femdomcult
+DOMAIN, femdomcult.org
 # inTheShadow
-DOMAIN-SUFFIX,shadowthein.net
+DOMAIN, shadowthein.net
+# 明教
+DOMAIN, hdpt.xyz
 # AlphaRatio
-DOMAIN-SUFFIX,alpharatio.cc
-# Oppaitime
-DOMAIN-SUFFIX,oppaiti.me
+DOMAIN, alpharatio.cc
+# ihdbits
+DOMAIN, pt.newworld.plus
 # HDHome
-DOMAIN-SUFFIX,hdhome.org
+DOMAIN, hdhome.org
 # JoyHD
-DOMAIN-SUFFIX,joyhd.net
-# PrivateHD
-DOMAIN-SUFFIX,privatehd.to
+DOMAIN, joyhd.net
 # Anthelion
-DOMAIN-SUFFIX,anthelion.me
+DOMAIN, anthelion.me
 # Bibliotik
-DOMAIN-SUFFIX,bibliotik.me
+DOMAIN, bibliotik.me
 # BeyondHD
-DOMAIN-SUFFIX,beyond-hd.me
+DOMAIN, beyond-hd.me
 # 百川PT
-DOMAIN-SUFFIX,hitpt.com
+DOMAIN, hitpt.com
+# sportscult
+DOMAIN, sportscult.org
 # PT@KEEPFRDS
-DOMAIN-SUFFIX,keepfrds.com
+DOMAIN, pt.keepfrds.com
 # 北洋园
-DOMAIN-SUFFIX,tjupt.org
+DOMAIN, tjupt.org
+# Empornium
+DOMAIN, empornium.sx
 # TorrentCCF
-DOMAIN-SUFFIX,et8.org
+DOMAIN, et8.org
 # OpenCD
-DOMAIN-SUFFIX,open.cd
+DOMAIN, open.cd
 # TorrentsTD
-DOMAIN-SUFFIX,torrentday.com
+DOMAIN, torrentday.com
 # TG
-DOMAIN-SUFFIX,thegeeks.click
+DOMAIN, thegeeks.click
 # HDRoute
-DOMAIN-SUFFIX,hdroute.org
+DOMAIN, hdroute.org
 # RED
-DOMAIN-SUFFIX,redacted.ch
+DOMAIN, redacted.ch
+# GTru
+DOMAIN, gaytor.rent
 # TeamHD
-DOMAIN-SUFFIX,teamhd.org
+DOMAIN, teamhd.org
 # MTV
-DOMAIN-SUFFIX,morethantv.me
-# HDAI
-DOMAIN-SUFFIX,hd.ai
+DOMAIN, morethantv.me
+# ZHUQUE
+DOMAIN, zhuque.in
 # Bemaniso
-DOMAIN-SUFFIX,bemaniso.ws
+DOMAIN, bemaniso.ws
+# FSM
+DOMAIN, nextpt.net
 # PTMSG
-DOMAIN-SUFFIX,msg.vg
+DOMAIN, pt.msg.vg
 # HDPOST
-DOMAIN-SUFFIX,hdpost.top
+DOMAIN, pt.hdpost.top
 # HD-Forever
-DOMAIN-SUFFIX,hdf.world
+DOMAIN, hdf.world
 # JPTV
-DOMAIN-SUFFIX,jptv.club
+DOMAIN, jptv.club
 # PTer
-DOMAIN-SUFFIX,pterclub.com
-# AvistaZ
-DOMAIN-SUFFIX,avistaz.to
+DOMAIN, pterclub.com
 # PTHome
-DOMAIN-SUFFIX,pthome.net
+DOMAIN, pthome.net
 # CHDBits
-DOMAIN-SUFFIX,chdbits.co
-# Snakepop
-DOMAIN-SUFFIX,snakepop.art
+DOMAIN, chdbits.co
+# Blutopia
+DOMAIN, blutopia.cc
+# HUNO
+DOMAIN, hawke.uno
+# CyanBug
+DOMAIN, cyanbug.net
 # UHDBits
-DOMAIN-SUFFIX,uhdbits.org
+DOMAIN, uhdbits.org
 # GPW
-DOMAIN-SUFFIX,greatposterwall.com
+DOMAIN, greatposterwall.com
 # SugoiMusic
-DOMAIN-SUFFIX,sugoimusic.me
+DOMAIN, sugoimusic.me
 # Concertos
-DOMAIN-SUFFIX,concertos.live
+DOMAIN, concertos.live
 # XTR
-DOMAIN-SUFFIX,extremlymtorrents.ws
+DOMAIN, extremlymtorrents.ws
 # U2
-DOMAIN-SUFFIX,u2.dmhy.org
+DOMAIN, u2.dmhy.org
+# 丐帮
+DOMAIN, gainbound.net
+# PTChina
+DOMAIN, ptchina.org
 # 1PTBar
-DOMAIN-SUFFIX,1ptba.com
+DOMAIN, 1ptba.com
 # TTG
-DOMAIN-SUFFIX,totheglory.im
+DOMAIN, totheglory.im
 # BTSCHOOL
-DOMAIN-SUFFIX,btschool.club
-# DIC
-DOMAIN-SUFFIX,dicmusic.club
-# Pornbits
-DOMAIN-SUFFIX,pornbits.net
-# BYRBT
-DOMAIN-SUFFIX,bt.byr.cn
-# HDSky
-DOMAIN-SUFFIX,hdsky.me
-# Cinematik
-DOMAIN-SUFFIX,cinematik.net
-# LemonHD
-DOMAIN-SUFFIX,lemonhd.org
-# BTN
-DOMAIN-SUFFIX,broadcasthe.net
-# HDZone
-DOMAIN-SUFFIX,hdzone.me
-# 爱薇网
-DOMAIN-SUFFIX,avgv.cc
-# BWT
-DOMAIN-SUFFIX,bwtorrents.tv
-# KaraGarga
-DOMAIN-SUFFIX,karagarga.in
-# pussytorrents
-DOMAIN-SUFFIX,pussytorrents.org
-# IPTorrents
-DOMAIN-SUFFIX,iptorrents.com
-# GFXPeers
-DOMAIN-SUFFIX,gfxpeers.net
-# UltraHD
-DOMAIN-SUFFIX,ultrahd.net
-# Aidoru!Online
-DOMAIN-SUFFIX,aidoru-online.me
-# MyAnonaMouse
-DOMAIN-SUFFIX,myanonamouse.net
-# SDBits
-DOMAIN-SUFFIX,sdbits.org
-# 南洋PT
-DOMAIN-SUFFIX,nanyangpt.com
-# DiscFan
-DOMAIN-SUFFIX,discfan.net
-# TorrentLeech
-DOMAIN-SUFFIX,torrentleech.org
-# HDATMOS
-DOMAIN-SUFFIX,hdatmos.club
-# HDCity
-DOMAIN-SUFFIX,hdcity.city
-# Nebulance
-DOMAIN-SUFFIX,nebulance.io
+DOMAIN, pt.btschool.club
+# CarPT
+DOMAIN, carpt.net
 # SharkPT
-DOMAIN-SUFFIX,sharkpt.net
+DOMAIN, sharkpt.net
+# DIC
+DOMAIN, dicmusic.club
+# GTorg
+DOMAIN, gay-torrents.org
+# Audiences
+DOMAIN, audiences.me
+# HDSky
+DOMAIN, hdsky.me
+# wintersakura
+DOMAIN, wintersakura.net
+# Cinematik
+DOMAIN, cinematik.net
+# bitbr
+DOMAIN, bitbr.cc
+# LemonHD
+DOMAIN, lemonhd.org
+# BTN
+DOMAIN, broadcasthe.net
+# BYRBT
+DOMAIN, byr.pt
+# HDZone
+DOMAIN, hdzone.me
+# ZmPT(织梦)
+DOMAIN, zmpt.cc
+# BWT
+DOMAIN, bwtorrents.tv
+# KaraGarga
+DOMAIN, karagarga.in
+# Learn Flakes
+DOMAIN, learnflakes.net
+# pussytorrents
+DOMAIN, pussytorrents.org
+# IPTorrents
+DOMAIN, iptorrents.com
+# GFXPeers
+DOMAIN, gfxpeers.net
+# UltraHD
+DOMAIN, ultrahd.net
+# Aidoru!Online
+DOMAIN, aidoru-online.me
+# MyAnonaMouse
+DOMAIN, myanonamouse.net
+# 憨憨
+DOMAIN, hhanclub.top
+# Pig
+DOMAIN, piggo.me
+# SDBits
+DOMAIN, sdbits.org
+# 极速之星PT
+DOMAIN, bitpt.cn
+# 南洋PT
+DOMAIN, nanyangpt.com
+# DiscFan
+DOMAIN, discfan.net
+# ihdbits
+DOMAIN, oldtoons.world
+# 杏林
+DOMAIN, xinglin.one
+# TorrentLeech
+DOMAIN, torrentleech.org
+# HDATMOS
+DOMAIN, hdatmos.club
+# HDCity
+DOMAIN, hdcity.city
+# WiHD
+DOMAIN, world-in-hd.net
+# Nebulance
+DOMAIN, nebulance.io
+# Azusa
+DOMAIN, azusa.wiki

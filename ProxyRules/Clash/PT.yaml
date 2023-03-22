@@ -1,112 +1,137 @@
 payload:
-  - DOMAIN-SUFFIX,hdbits.org
-  - DOMAIN-SUFFIX,ccfbits.org
-  - DOMAIN-SUFFIX,baconbits.org
-  - DOMAIN-SUFFIX,aither.cc
-  - DOMAIN-SUFFIX,nicept.net
-  - DOMAIN-SUFFIX,brokenstones.club
-  - DOMAIN-SUFFIX,beitai.pt
-  - DOMAIN-SUFFIX,gazellegames.net
-  - DOMAIN-SUFFIX,ptsbao.club
-  - DOMAIN-SUFFIX,asiancinema.me
-  - DOMAIN-SUFFIX,pttime.org
-  - DOMAIN-SUFFIX,animebytes.tv
-  - DOMAIN-SUFFIX,orpheus.network
-  - DOMAIN-SUFFIX,m-team.cc
-  - DOMAIN-SUFFIX,skyey2.com
-  - DOMAIN-SUFFIX,skyeysnow.com
-  - DOMAIN-SUFFIX,hdchina.org
-  - DOMAIN-SUFFIX,hd-torrents.org
-  - DOMAIN-SUFFIX,soulvoice.club
-  - DOMAIN-SUFFIX,haidan.video
-  - DOMAIN-SUFFIX,animetorrents.me
-  - DOMAIN-SUFFIX,lztr.me
-  - DOMAIN-SUFFIX,hdarea.co
-  - DOMAIN-SUFFIX,cinemaz.to
-  - DOMAIN-SUFFIX,torrentseeds.org
-  - DOMAIN-SUFFIX,52pt.site
-  - DOMAIN-SUFFIX,exoticaz.to
-  - DOMAIN-SUFFIX,hdtime.org
-  - DOMAIN-SUFFIX,hdbd.us
-  - DOMAIN-SUFFIX,cgpeers.com
-  - DOMAIN-SUFFIX,passthepopcorn.me
-  - DOMAIN-SUFFIX,empornium.is
-  - DOMAIN-SUFFIX,hd4fans.org
-  - DOMAIN-SUFFIX,hd-space.org
-  - DOMAIN-SUFFIX,cinemageddon.net
-  - DOMAIN-SUFFIX,eastgame.org
-  - DOMAIN-SUFFIX,blutopia.xyz
-  - DOMAIN-SUFFIX,hdfans.org
-  - DOMAIN-SUFFIX,jpopsuki.eu
-  - DOMAIN-SUFFIX,springsunday.net
-  - DOMAIN-SUFFIX,hddolby.com
-  - DOMAIN-SUFFIX,filelist.io
-  - DOMAIN-SUFFIX,htpt.cc
-  - DOMAIN-SUFFIX,ourbits.club
-  - DOMAIN-SUFFIX,npupt.com
-  - DOMAIN-SUFFIX,hdupt.com
-  - DOMAIN-SUFFIX,shadowthein.net
-  - DOMAIN-SUFFIX,alpharatio.cc
-  - DOMAIN-SUFFIX,oppaiti.me
-  - DOMAIN-SUFFIX,hdhome.org
-  - DOMAIN-SUFFIX,joyhd.net
-  - DOMAIN-SUFFIX,privatehd.to
-  - DOMAIN-SUFFIX,anthelion.me
-  - DOMAIN-SUFFIX,bibliotik.me
-  - DOMAIN-SUFFIX,beyond-hd.me
-  - DOMAIN-SUFFIX,hitpt.com
-  - DOMAIN-SUFFIX,keepfrds.com
-  - DOMAIN-SUFFIX,tjupt.org
-  - DOMAIN-SUFFIX,et8.org
-  - DOMAIN-SUFFIX,open.cd
-  - DOMAIN-SUFFIX,torrentday.com
-  - DOMAIN-SUFFIX,thegeeks.click
-  - DOMAIN-SUFFIX,hdroute.org
-  - DOMAIN-SUFFIX,redacted.ch
-  - DOMAIN-SUFFIX,teamhd.org
-  - DOMAIN-SUFFIX,morethantv.me
-  - DOMAIN-SUFFIX,hd.ai
-  - DOMAIN-SUFFIX,bemaniso.ws
-  - DOMAIN-SUFFIX,msg.vg
-  - DOMAIN-SUFFIX,hdpost.top
-  - DOMAIN-SUFFIX,hdf.world
-  - DOMAIN-SUFFIX,jptv.club
-  - DOMAIN-SUFFIX,pterclub.com
-  - DOMAIN-SUFFIX,avistaz.to
-  - DOMAIN-SUFFIX,pthome.net
-  - DOMAIN-SUFFIX,chdbits.co
-  - DOMAIN-SUFFIX,snakepop.art
-  - DOMAIN-SUFFIX,uhdbits.org
-  - DOMAIN-SUFFIX,greatposterwall.com
-  - DOMAIN-SUFFIX,sugoimusic.me
-  - DOMAIN-SUFFIX,concertos.live
-  - DOMAIN-SUFFIX,extremlymtorrents.ws
-  - DOMAIN-SUFFIX,u2.dmhy.org
-  - DOMAIN-SUFFIX,1ptba.com
-  - DOMAIN-SUFFIX,totheglory.im
-  - DOMAIN-SUFFIX,btschool.club
-  - DOMAIN-SUFFIX,dicmusic.club
-  - DOMAIN-SUFFIX,pornbits.net
-  - DOMAIN-SUFFIX,bt.byr.cn
-  - DOMAIN-SUFFIX,hdsky.me
-  - DOMAIN-SUFFIX,cinematik.net
-  - DOMAIN-SUFFIX,lemonhd.org
-  - DOMAIN-SUFFIX,broadcasthe.net
-  - DOMAIN-SUFFIX,hdzone.me
-  - DOMAIN-SUFFIX,avgv.cc
-  - DOMAIN-SUFFIX,bwtorrents.tv
-  - DOMAIN-SUFFIX,karagarga.in
-  - DOMAIN-SUFFIX,pussytorrents.org
-  - DOMAIN-SUFFIX,iptorrents.com
-  - DOMAIN-SUFFIX,gfxpeers.net
-  - DOMAIN-SUFFIX,ultrahd.net
-  - DOMAIN-SUFFIX,aidoru-online.me
-  - DOMAIN-SUFFIX,myanonamouse.net
-  - DOMAIN-SUFFIX,sdbits.org
-  - DOMAIN-SUFFIX,nanyangpt.com
-  - DOMAIN-SUFFIX,discfan.net
-  - DOMAIN-SUFFIX,torrentleech.org
-  - DOMAIN-SUFFIX,hdatmos.club
-  - DOMAIN-SUFFIX,hdcity.city
-  - DOMAIN-SUFFIX,nebulance.io
-  - DOMAIN-SUFFIX,sharkpt.net
+  - DOMAIN, hdbits.org
+  - DOMAIN, ccfbits.org
+  - DOMAIN, baconbits.org
+  - DOMAIN, aither.cc
+  - DOMAIN, kamept.com
+  - DOMAIN, nicept.net
+  - DOMAIN, brokenstones.club
+  - DOMAIN, beitai.pt
+  - DOMAIN, gazellegames.net
+  - DOMAIN, hdmayi.com
+  - DOMAIN, ptsbao.club
+  - DOMAIN, asiancinema.me
+  - DOMAIN, pttime.org
+  - DOMAIN, animebytes.tv
+  - DOMAIN, orpheus.network
+  - DOMAIN, kp.m-team.cc
+  - DOMAIN, skyey2.com
+  - DOMAIN, hdchina.org
+  - DOMAIN, hd-torrents.org
+  - DOMAIN, pt.soulvoice.club
+  - DOMAIN, haidan.video
+  - DOMAIN, lztr.me
+  - DOMAIN, hdarea.co
+  - DOMAIN, club.hares.top
+  - DOMAIN, torrentseeds.org
+  - DOMAIN, 52pt.site
+  - DOMAIN, hdtime.org
+  - DOMAIN, pt.hdbd.us
+  - DOMAIN, cgpeers.com
+  - DOMAIN, monikadesign.uk
+  - DOMAIN, pt.0ff.cc
+  - DOMAIN, passthepopcorn.me
+  - DOMAIN, pt.hd4fans.org
+  - DOMAIN, hd-space.org
+  - DOMAIN, cinemageddon.net
+  - DOMAIN, pt.eastgame.org
+  - DOMAIN, speedapp.io
+  - DOMAIN, hdfans.org
+  - DOMAIN, jpopsuki.eu
+  - DOMAIN, springsunday.net
+  - DOMAIN, hddolby.com
+  - DOMAIN, ihdbits.me
+  - DOMAIN, filelist.io
+  - DOMAIN, htpt.cc
+  - DOMAIN, ourbits.club
+  - DOMAIN, npupt.com
+  - DOMAIN, pt.hdupt.com
+  - DOMAIN, jptvts.us
+  - DOMAIN, hdvideo.one
+  - DOMAIN, cnlang.org
+  - DOMAIN, filept.com
+  - DOMAIN, femdomcult.org
+  - DOMAIN, shadowthein.net
+  - DOMAIN, hdpt.xyz
+  - DOMAIN, alpharatio.cc
+  - DOMAIN, pt.newworld.plus
+  - DOMAIN, hdhome.org
+  - DOMAIN, joyhd.net
+  - DOMAIN, anthelion.me
+  - DOMAIN, bibliotik.me
+  - DOMAIN, beyond-hd.me
+  - DOMAIN, hitpt.com
+  - DOMAIN, sportscult.org
+  - DOMAIN, pt.keepfrds.com
+  - DOMAIN, tjupt.org
+  - DOMAIN, empornium.sx
+  - DOMAIN, et8.org
+  - DOMAIN, open.cd
+  - DOMAIN, torrentday.com
+  - DOMAIN, thegeeks.click
+  - DOMAIN, hdroute.org
+  - DOMAIN, redacted.ch
+  - DOMAIN, gaytor.rent
+  - DOMAIN, teamhd.org
+  - DOMAIN, morethantv.me
+  - DOMAIN, zhuque.in
+  - DOMAIN, bemaniso.ws
+  - DOMAIN, nextpt.net
+  - DOMAIN, pt.msg.vg
+  - DOMAIN, pt.hdpost.top
+  - DOMAIN, hdf.world
+  - DOMAIN, jptv.club
+  - DOMAIN, pterclub.com
+  - DOMAIN, pthome.net
+  - DOMAIN, chdbits.co
+  - DOMAIN, blutopia.cc
+  - DOMAIN, hawke.uno
+  - DOMAIN, cyanbug.net
+  - DOMAIN, uhdbits.org
+  - DOMAIN, greatposterwall.com
+  - DOMAIN, sugoimusic.me
+  - DOMAIN, concertos.live
+  - DOMAIN, extremlymtorrents.ws
+  - DOMAIN, u2.dmhy.org
+  - DOMAIN, gainbound.net
+  - DOMAIN, ptchina.org
+  - DOMAIN, 1ptba.com
+  - DOMAIN, totheglory.im
+  - DOMAIN, pt.btschool.club
+  - DOMAIN, carpt.net
+  - DOMAIN, sharkpt.net
+  - DOMAIN, dicmusic.club
+  - DOMAIN, gay-torrents.org
+  - DOMAIN, audiences.me
+  - DOMAIN, hdsky.me
+  - DOMAIN, wintersakura.net
+  - DOMAIN, cinematik.net
+  - DOMAIN, bitbr.cc
+  - DOMAIN, lemonhd.org
+  - DOMAIN, broadcasthe.net
+  - DOMAIN, byr.pt
+  - DOMAIN, hdzone.me
+  - DOMAIN, zmpt.cc
+  - DOMAIN, bwtorrents.tv
+  - DOMAIN, karagarga.in
+  - DOMAIN, learnflakes.net
+  - DOMAIN, pussytorrents.org
+  - DOMAIN, iptorrents.com
+  - DOMAIN, gfxpeers.net
+  - DOMAIN, ultrahd.net
+  - DOMAIN, aidoru-online.me
+  - DOMAIN, myanonamouse.net
+  - DOMAIN, hhanclub.top
+  - DOMAIN, piggo.me
+  - DOMAIN, sdbits.org
+  - DOMAIN, bitpt.cn
+  - DOMAIN, nanyangpt.com
+  - DOMAIN, discfan.net
+  - DOMAIN, oldtoons.world
+  - DOMAIN, xinglin.one
+  - DOMAIN, torrentleech.org
+  - DOMAIN, hdatmos.club
+  - DOMAIN, hdcity.city
+  - DOMAIN, world-in-hd.net
+  - DOMAIN, nebulance.io
+  - DOMAIN, azusa.wiki

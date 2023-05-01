@@ -1,0 +1,8 @@
+#!name=原神抽卡记录获取
+#!desc=自动获取原神抽卡记录链接
+
+[Script]
+GetGenshinGachaLog = type=http-request,pattern=^https?:\/\/(hk4e-api\.mihoyo\.com|hk4e-api-os\.hoyoverse\.com)\/event\/gacha_info\/api\/getGachaLog,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/Xm798/Tools/main/QuanX/Scripts/GetGenshinGachaLog.js
+
+[MITM]
+hostname= %APPEND% hk4e-api.mihoyo.com, hk4e-api-os.hoyoverse.com

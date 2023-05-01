@@ -1,0 +1,8 @@
+#!name=CaiXinZhouKan
+#!desc=CaiXinZhouKanPro 解锁
+
+[Script]
+CaiXinZhouKanProCrack = type=http-response,pattern=http://ipadcms.caixin.com/tmp/articles/*,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/dev/raw/main/CaiXinZhouKanProCrack.js
+
+[MITM]
+hostname= %APPEND% gateway.caixin.com, ipadcms.caixin.com

@@ -1,0 +1,12 @@
+#!name=Documents
+#!desc=documents文件管理器+解锁订阅
+#软件版本:v8.2.3
+#脚本作者:彭于晏💞
+#更新时间:2022-10-20
+#使用声明：️此脚本仅供学习与交流，请勿转载与贩卖！⚠️⚠️⚠️
+
+[Script]
+documents = type=http-request,pattern=^https:\/\/license\.pdfexpert\.com\/api\/2\.0\/documents\/subscription\/refresh,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/documents.js
+
+[MITM]
+hostname= %APPEND% license.pdfexpert.com

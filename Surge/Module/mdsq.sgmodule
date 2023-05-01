@@ -1,0 +1,8 @@
+#!name=MDSQ
+#!desc=麻豆社区解锁全部视频
+
+[Script]
+MDSQ = type=http-request,pattern=^https?:\/\/.*\/api\/app\/media\/m3u8\/.*\.m3u8,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/mdsqallcrack.js
+
+[MITM]
+hostname= %APPEND% ypmnkbb.saejeuj.com, fufxtyc.bytebwq.com, lcbnejx.dirptev.com, gcyivjc.qrneryt.com

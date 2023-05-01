@@ -1,0 +1,8 @@
+#!name=Slidebox
+#!desc=Slidebox 解锁
+
+[Script]
+Slidebox = type=http-response,pattern=^https:\/\/asia-east2-slidebox-ios-prod\.cloudfunctions\.net\/api_v1,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Xm798/Tools/main/QuanX/Scripts/Slidebox.js
+
+[MITM]
+hostname= %APPEND% asia-east2-slidebox-ios-prod.cloudfunctions.net

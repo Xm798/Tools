@@ -18,7 +18,7 @@ Weibonoredirect = type=http-request,pattern=^https?:\/\/weibo\.cn\/sinaurl\?(.*&
 Weibonoredircet2 = type=http-request,pattern=^https:\/\/shop\.sc\.weibo\.com\/h5\/jump\/error\?(.*&)?url=(.*),script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/noredirect.js
 Weibonoredirect3 = type=http-response,pattern=^https?:\/\/(sinaurl|t)\.cn\/,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/noredirect.js
 # QQ
-QQnoredirect = type=http-request,pattern=^https:\/\/c\.pc\.qq\.com\/middlem\.html\?pfurl=,script-path=https://raw.githubusercontent.com/Xm798/Tools/main/Surge/Script/noredirect.js
+QQnoredirect = type=http-request,pattern=^https:\/\/c\.pc\.qq\.com\/middlem\.html\?pfurl=,script-path=https://raw.githubusercontent.com/Xm798/Tools/main/Surge/Scripts/noredirect.js
 
 [MITM]
 hostname = %APPEND% links.jianshu.com, www.jianshu.com, link.zhihu.com, weibo.cn, sinaurl.cn, home.115.com, shop.sc.weibo.com, c.pc.qq.com

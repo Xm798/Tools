@@ -10,6 +10,7 @@ PROCESS-NAME,uTorrent,DIRECT
 PROCESS-NAME,WebTorrent,DIRECT
 
 # 域名修正
+DOMAIN,c.pc.qq.com
 DOMAIN-SUFFIX,ghproxy.com
 DOMAIN-SUFFIX,bce.baidu.com
 DOMAIN-SUFFIX,parallels.com

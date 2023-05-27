@@ -2,6 +2,7 @@
 #!desc=pixiv Pro
 
 [Script]
+pixiv0 = type=http-response,pattern=^https:\/\/oauth\.secure\.pixiv\.net\/auth\/token,requires-body=1,max-size=0,script-path=https://ruleset.isteed.cc/Script/pixiv_premium.js
 pixiv1 = type=http-response,pattern=^https:\/\/oauth\.secure\.pixiv\.net\/auth\/token,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/Xm798/Tools@main/QuanX/Scripts/pixiv.js
 pixiv2 = type=http-response,pattern=^https:\/\/www\.pixiv\.net\/touch\/ajax\/user\/self\/status,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/Xm798/Tools@main/QuanX/Scripts/pixiv.js
 pixiv3 = type=http-response,pattern=^https:\/\/www\.pixiv\.net\/?$,requires-body=1,max-size=0,script-path=https://cdn.jsdelivr.net/gh/Xm798/Tools@main/QuanX/Scripts/pixiv.js

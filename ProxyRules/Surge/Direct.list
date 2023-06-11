@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,ghproxy.com
 DOMAIN-SUFFIX,bce.baidu.com
 DOMAIN-SUFFIX,parallels.com
 DOMAIN-SUFFIX,account-cn.alibabacloud.com
+DOMAIN-SUFFIX,discovery-maven.branch.io
 
 # 阿里云
 DOMAIN-SUFFIX,console.aliyun.com
@@ -24,9 +25,6 @@ DOMAIN-SUFFIX,developer.aliyun.com
 #Plex
 DOMAIN-SUFFIX,plex.direct
 DOMAIN-SUFFIX,plex.tv
-
-#淘宝
-DOMAIN-SUFFIX,taobao.com
 
 #Ondrive
 DOMAIN-SUFFIX,sharepoint.com

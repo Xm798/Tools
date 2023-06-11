@@ -8,6 +8,7 @@ payload:
   - PROCESS-NAME,Transmission,DIRECT
   - PROCESS-NAME,uTorrent,DIRECT
   - PROCESS-NAME,WebTorrent,DIRECT
+  - DOMAIN,c.pc.qq.com
   - DOMAIN-SUFFIX,ghproxy.com
   - DOMAIN-SUFFIX,bce.baidu.com
   - DOMAIN-SUFFIX,parallels.com

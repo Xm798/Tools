@@ -1,0 +1,333 @@
+# Author: Xm798
+# Update: 2023-06-19
+# Title: Clash Meta 配置文件
+# Description: 自用配置文件，使用了 Mata 核特性，无法用于原版 Clash 核和 Clash p 核。支持 Meta 核的客户端参见：https://docs.metacubex.one/used 。
+
+# ---------- ANCHORS ----------
+anchors:
+  proxy-groups:
+    proxies_fallback: &proxies_fallback
+        - 🇭🇰 香港
+        - 🇸🇬 新加坡
+        - 🇨🇳 台湾
+        - 🇯🇵 日本
+        - 🇺🇸 美国
+        - 🇺🇳 其他
+    proxies_select: &proxies_select
+        - 🎉 故障转移
+        - 🇭🇰 香港
+        - 🇸🇬 新加坡
+        - 🇨🇳 台湾
+        - 🇯🇵 日本
+        - 🇺🇸 美国
+        - 🇺🇳 其他
+        - 🚀 手动选择
+        - 🎯 全球直连
+    proxies_normal: &proxies_normal
+        - 🪁 节点选择
+        - 🇭🇰 香港
+        - 🇸🇬 新加坡
+        - 🇨🇳 台湾
+        - 🇯🇵 日本
+        - 🇺🇸 美国
+        - 🇺🇳 其他
+        - 🚀 手动选择
+        - 🎯 全球直连
+    proxies_lowmagf: &proxies_lowmagf
+        - 🗳 低倍率节点
+        - 🪁 节点选择
+        - 🇭🇰 香港
+        - 🇸🇬 新加坡
+        - 🇨🇳 台湾
+        - 🇯🇵 日本
+        - 🇺🇸 美国
+        - 🇺🇳 其他
+        - 🚀 手动选择
+        - 🎯 全球直连
+    proxies_directf: &proxies_directf
+        - 🎯 全球直连
+        - 🪁 节点选择
+        - 🇭🇰 香港
+        - 🇸🇬 新加坡
+        - 🇨🇳 台湾
+        - 🇯🇵 日本
+        - 🇺🇸 美国
+        - 🇺🇳 其他
+        - 🚀 手动选择
+
+  proxies_urltest_conf: &proxies_urltest_conf
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 150
+  proxies_fallback_conf: &proxies_fallback_conf
+    type: fallback
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 150
+  airport_common: &airport_common
+    type: http
+    interval: 86400
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 1800
+  rule_providers:
+    classical: &rule_providers_classical
+      type: http
+      behavior: classical
+      interval: 86400
+    domain: &rule_providers_domain
+      type: http
+      behavior: domain
+      interval: 86400
+    ipcidr: &rule_providers_ipcidr
+      type: http
+      behavior: ipcidr
+      interval: 86400
+  proxy-filters:
+    proxy-filters-HK: &proxy-filters-HK "香港|HK|(?i)Hong"
+    proxy-filters-SG: &proxy-filters-SG "新加坡|SG|(?i)Singapore"
+    proxy-filters-TW: &proxy-filters-TW "台湾|TW|(?i)Taiwan"
+    proxy-filters-JP: &proxy-filters-JP "日本|JP|(?i)Japan"
+    proxy-filters-US: &proxy-filters-US "美国|US|(?i)United States"
+    proxy-filters-TR: &proxy-filters-TR "土耳其|TUR|Turkey"
+    proxy-filters-DE: &proxy-filters-DE "德国|DE|(?i)Germany"
+    proxy-filters-UK: &proxy-filters-UK "英国|UK|(?i)United Kingdom"
+    proxy-filters-NL: &proxy-filters-NL "荷兰|NL|(?i)Netherlands"
+    proxy-filters-FR: &proxy-filters-FR "法国|FR|(?i)France"
+    proxy-filters-IN: &proxy-filters-IN "印度|IN|(?i)India"
+    proxy-filters-AR: &proxy-filters-AR "阿根廷|ARG|(?i)Argentina"
+    proxy-filters-KR: &proxy-filters-KR "韩国|KR|(?i)Korean"
+    proxy-filters-RU: &proxy-filters-RU "俄罗斯|RU|(?i)Russia"
+    proxy-filters-PH: &proxy-filters-PH "菲律宾|PH|(?i)Philippines"
+    proxy-filters-MY: &proxy-filters-MY "马来西亚|MY|(?i)Malaysia"
+    proxy-filters-OTHER: &proxy-filters-OTHER "^((?!(香港|HK|(?i)Hong|台湾|TW|(?i)Taiwan|日本|JP|(?i)Japan|新加坡|(?i)Singapore|SG|美国|(?i)United States|到期|剩余流量|时间|官网|产品|Traffic|Expire)).*)"
+    proxy-filters-LOW-MAG: &proxy-filters-LOW-MAG '实验性|0\.1x|0\.2x'
+
+# ---------- GENERAL ----------
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+# ---------- PROXY-PROVIDERS ----------
+proxy-providers:
+  AirPort1:
+    <<: *airport_common
+    url: "Your subscription link" # 请填写你的订阅链接
+    path: ./proxy_providers/AirPort1.yaml
+  AirPort2:
+    <<: *airport_common
+    url: "Your subscription link" # 请填写你的订阅链接
+    path: ./proxy_providers/AirPort2.yaml
+
+# ---------- PROXIES ----------
+proxies: null
+
+proxy-groups:
+  - {name: 🎉 故障转移, <<: *proxies_fallback_conf, interval: 180, proxies: *proxies_fallback}
+  - {name: 🪁 节点选择, type: select, proxies: *proxies_select}
+  - {name: 🤖 AI Chat, type: select, proxies: [🇺🇸 美国, 🇸🇬 新加坡]}
+  - {name: 🗳️ PT 站点, type: select, use: [AirPort1, AirPort2], filter: *proxy-filters-HK, proxies: [🎯 全球直连, 🚀 手动选择]}
+  - {name: 💾 网盘服务,  type: select, proxies: *proxies_lowmagf}
+  - {name: 📧 邮件服务,  type: select, proxies: *proxies_normal}
+  - {name: 📡 测速服务,  type: select, proxies: *proxies_directf}
+  - {name: 🎞︎ E-Hentai, type: select, proxies: *proxies_normal}
+  - {name: 🌐 谷歌服务,  type: select, proxies: *proxies_normal}
+  - {name: 🍎 苹果服务,  type: select, proxies: *proxies_directf}
+  - {name: 💾 微软服务,  type: select, proxies: *proxies_directf}
+  - {name: 🎮 游戏服务,  type: select, proxies: *proxies_normal}
+  - {name: 📺 港台媒体,  type: select, proxies: *proxies_directf}
+  - {name: 📹 国际媒体,  type: select, proxies: *proxies_lowmagf}
+  - {name: 🐟 漏网之鱼,  type: select, proxies: *proxies_normal}
+  - {name: 🧪 学术服务, type: select, proxies: *proxies_directf}
+  - {name: 🚀 手动选择, type: select, use: [AirPort1, AirPort2]}
+
+  - {name: 🗳 低倍率节点, <<: *proxies_urltest_conf, use: [AirPort2], *proxy-filters-LOW-MAG}
+  - {name: 🇭🇰 香港, <<: *proxies_urltest_conf, use: [AirPort1], filter: *proxy-filters-HK}
+  - {name: 🇸🇬 新加坡, <<: *proxies_urltest_conf, use: [AirPort1], filter: *proxy-filters-SG}
+  - {name: 🇨🇳 台湾, <<: *proxies_urltest_conf, use: [AirPort1, AirPort2], filter: *proxy-filters-TW}
+  - {name: 🇯🇵 日本, <<: *proxies_urltest_conf, use: [AirPort1, AirPort2], filter: *proxy-filters-JP}
+  - {name: 🇺🇸 美国, <<: *proxies_urltest_conf, use: [AirPort1, AirPort2], filter: *proxy-filters-US}
+  - {name: 🇺🇳 其他, type: select, use: [AirPort1, AirPort2], filter: *proxy-filters-OTHER}
+
+  - {name: ⛔️ 隐私广告, type: select, proxies: [REJECT, 🎯 全球直连, 🪁 节点选择]}
+  - {name: 🎯 全球直连, type: select, proxies: [DIRECT]}
+
+# ---------- RULES ----------
+rules:
+  - RULE-SET,Proxy,🪁 节点选择
+  - RULE-SET,Direct,🎯 全球直连
+  - RULE-SET,Direct_2,🎯 全球直连
+  - RULE-SET,Advertising_Domain,⛔️ 隐私广告
+  - RULE-SET,Advertising,⛔️ 隐私广告
+  - RULE-SET,Scholar,🧪 学术服务
+  - RULE-SET,Scholar_2,🧪 学术服务
+  - RULE-SET,EHGallery,🎞︎ E-Hentai
+  - RULE-SET,Lark,🪁 节点选择
+  - RULE-SET,AI,🤖 AI Chat
+  - RULE-SET,PT,🗳️ PT 站点
+  - RULE-SET,Mail,📧 邮件服务
+  - RULE-SET,GoogleDrive,💾 网盘服务
+  - RULE-SET,DropBox,💾 网盘服务
+  - RULE-SET,Telegram,🪁 节点选择
+  - RULE-SET,Emby,📹 国际媒体
+  - RULE-SET,AsianMedia,📺 港台媒体
+  - RULE-SET,GlobalMedia,📹 国际媒体
+  - RULE-SET,WeChat,🎯 全球直连
+  - RULE-SET,ProxyLite,🪁 节点选择
+  - RULE-SET,Speedtest,📡 测速服务
+  - RULE-SET,Game,🎮 游戏服务
+  - RULE-SET,Steam,🎮 游戏服务
+  - RULE-SET,Epic,🎮 游戏服务
+  - RULE-SET,Google,🌐 谷歌服务
+  - RULE-SET,Microsoft,💾 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Global_Domain,🪁 节点选择
+  - RULE-SET,Global,🪁 节点选择
+  - RULE-SET,Lan,🎯 全球直连
+  - RULE-SET,PrivateTracker,🎯 全球直连
+  - RULE-SET,China_Classical,🎯 全球直连
+  - RULE-SET,China_IPs,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
+
+# ---------- RULE-PROVIDERS ----------
+rule-providers:
+  Proxy:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/Proxy.yaml
+    path: ./providers/rule-provider_Proxy_2.yaml
+  Direct:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/Direct.yaml
+    path: ./providers/rule-provider_Direct_2.yaml
+  Direct_2:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml
+    path: ./providers/rule-provider_Direct_3.yaml
+  Advertising_Domain:
+    <<: *rule_providers_domain
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Domain.yaml
+    path: ./providers/rule-provider_Advertising_Domain.yaml
+  Advertising:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising.yaml
+    path: ./providers/rule-provider_Advertising.yaml
+  Scholar:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/Scholar.yaml
+    path: ./providers/rule-provider_Scholar.yaml
+  Scholar_2:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Scholar/Scholar.yaml
+    path: ./providers/rule-provider_Scholar_2.yaml
+  EHGallery:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/EHGallery/EHGallery.yaml
+    path: ./providers/rule-provider_EHGallery.yaml
+  Lark:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/Lark.yaml
+    path: ./providers/rule-provider_Lark.yaml
+  AI:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/AI.yaml
+    path: ./providers/rule-provider_AI.yaml
+  PT:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/PT.yaml
+    path: ./providers/rule-provider_PT.yaml
+  Mail:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Mail/Mail.yaml
+    path: ./providers/rule-provider_Mail.yaml
+  GoogleDrive:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GoogleDrive/GoogleDrive.yaml
+    path: ./providers/rule-provider_Drive.yaml
+  DropBox:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Dropbox/Dropbox.yaml
+    path: ./providers/rule-provider_DropBox.yaml
+  Telegram:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
+    path: ./providers/rule-provider_Telegram.yaml
+  Emby:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Emby/Emby.yaml
+    path: ./providers/rule-provider_Emby.yaml
+  AsianMedia:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AsianMedia/AsianMedia.yaml
+    path: ./providers/rule-provider_AsianMedia.yaml
+  GlobalMedia:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml
+    path: ./providers/rule-provider_GlobalMedia.yaml
+  WeChat:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/WeChat/WeChat.yaml
+    path: ./providers/rule-provider_WeChat.yaml
+  ProxyLite:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ProxyLite/ProxyLite.yaml
+    path: ./providers/rule-provider_ProxyLite.yaml
+  Speedtest:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Speedtest/Speedtest.yaml
+    path: ./providers/rule-provider_Speedtest.yaml
+  Game:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game.yaml
+    path: ./providers/rule-provider_Game.yaml
+  Steam:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
+    path: ./providers/rule-provider_Steam.yaml
+  Epic:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Epic/Epic.yaml
+    path: ./providers/rule-provider_Epic.yaml
+  Google:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml
+    path: ./providers/rule-provider_Google.yaml
+  Microsoft:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
+    path: ./providers/rule-provider_Microsoft.yaml
+  Apple:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
+    path: ./providers/rule-provider_Apple.yaml
+  Global_Domain:
+    <<: *rule_providers_domain
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Domain.yaml
+    path: ./providers/rule-provider_Global_Domain.yaml
+  Global:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global.yaml
+    path: ./providers/rule-provider_Global.yaml
+  Lan:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
+    path: ./providers/rule-provider_Lan.yaml
+  PrivateTracker:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PrivateTracker/PrivateTracker.yaml
+    path: ./providers/rule-provider_PrivateTracker.yaml
+  China_Classical:
+    <<: *rule_providers_classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China_Classical.yaml
+    path: ./providers/rule-provider_China_Classical.yaml
+  China_IPs:
+    <<: *rule_providers_ipcidr
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
+    path: ./providers/rule-provider_China_IPs.yaml

@@ -86,11 +86,11 @@ anchors:
       behavior: ipcidr
       interval: 86400
   proxy-filters:
-    proxy-filters-HK: &proxy-filters-HK "香港|HK|(?i)Hong"
-    proxy-filters-SG: &proxy-filters-SG "新加坡|SG|(?i)Singapore"
-    proxy-filters-TW: &proxy-filters-TW "台湾|TW|(?i)Taiwan"
-    proxy-filters-JP: &proxy-filters-JP "日本|JP|(?i)Japan"
-    proxy-filters-US: &proxy-filters-US "美国|US|(?i)United States"
+    proxy-filters-HK: &proxy-filters-HK "港|HK|(?i)Hong"
+    proxy-filters-SG: &proxy-filters-SG "新|SG|(?i)Singapore"
+    proxy-filters-TW: &proxy-filters-TW "台|TW|(?i)Taiwan"
+    proxy-filters-JP: &proxy-filters-JP "日|JP|(?i)Japan"
+    proxy-filters-US: &proxy-filters-US "美|US|(?i)United States"
     proxy-filters-TR: &proxy-filters-TR "土耳其|TUR|Turkey"
     proxy-filters-DE: &proxy-filters-DE "德国|DE|(?i)Germany"
     proxy-filters-UK: &proxy-filters-UK "英国|UK|(?i)United Kingdom"
@@ -102,8 +102,8 @@ anchors:
     proxy-filters-RU: &proxy-filters-RU "俄罗斯|RU|(?i)Russia"
     proxy-filters-PH: &proxy-filters-PH "菲律宾|PH|(?i)Philippines"
     proxy-filters-MY: &proxy-filters-MY "马来西亚|MY|(?i)Malaysia"
-    proxy-filters-OTHER: &proxy-filters-OTHER "^((?!(香港|HK|(?i)Hong|台湾|TW|(?i)Taiwan|日本|JP|(?i)Japan|新加坡|(?i)Singapore|SG|美国|(?i)United States|到期|剩余流量|时间|官网|产品|Traffic|Expire)).*)"
-    proxy-filters-LOW-MAG: &proxy-filters-LOW-MAG '实验性|0\.1x|0\.2x'
+    proxy-filters-OTHER: &proxy-filters-OTHER "^(?:(?!香港|HK|(?i)Hong|台湾|TW|(?i)Taiwan|日本|JP|(?i)Japan|新加坡|(?i)Singapore|SG|美国|(?i)United States|到期|剩余流量|时间|官网|产品|Traffic|Expire).)*$"
+    proxy-filters-LOW-MAG: &proxy-filters-LOW-MAG '实验性|0\.1(?i)x|0\.2(?i)x|0\.3(?i)x|0\.4(?i)x|0\.5(?i)x|0\.6(?i)x|0\.7(?i)x|0\.8(?i)x|0\.9(?i)x'
 
 # ---------- GENERAL ----------
 port: 7890
@@ -182,7 +182,7 @@ proxy-groups:
   - {name: 🧪 学术服务, type: select, proxies: *proxies_directf}
   - {name: 🚀 手动选择, type: select, use: [AirPort1, AirPort2]}
 
-  - {name: 🗳 低倍率节点, <<: *proxies_urltest_conf, use: [AirPort1], *proxy-filters-LOW-MAG}
+  - {name: 🗳 低倍率节点, <<: *proxies_urltest_conf, use: [AirPort1], filter: *proxy-filters-LOW-MAG}
   - {name: 🇭🇰 香港, <<: *proxies_urltest_conf, use: [AirPort1, AirPort2], filter: *proxy-filters-HK}
   - {name: 🇸🇬 新加坡, <<: *proxies_urltest_conf, use: [AirPort1, AirPort2], filter: *proxy-filters-SG}
   - {name: 🇨🇳 台湾, <<: *proxies_urltest_conf, use: [AirPort1, AirPort2], filter: *proxy-filters-TW}

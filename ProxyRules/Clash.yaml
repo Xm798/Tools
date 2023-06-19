@@ -149,6 +149,7 @@ dns:
       - 240.0.0.0/4
 
 # ---------- PROXY-PROVIDERS ----------
+# 如果只有一个或两个以上机场，注意修改此处配置和 proxy-groups 部分中 use字段 涉及的部分，如 use: [AirPort1, AirPort2]。
 proxy-providers:
   AirPort1:
     <<: *airport_common
@@ -181,9 +182,9 @@ proxy-groups:
   - {name: 🧪 学术服务, type: select, proxies: *proxies_directf}
   - {name: 🚀 手动选择, type: select, use: [AirPort1, AirPort2]}
 
-  - {name: 🗳 低倍率节点, <<: *proxies_urltest_conf, use: [AirPort2], *proxy-filters-LOW-MAG}
-  - {name: 🇭🇰 香港, <<: *proxies_urltest_conf, use: [AirPort1], filter: *proxy-filters-HK}
-  - {name: 🇸🇬 新加坡, <<: *proxies_urltest_conf, use: [AirPort1], filter: *proxy-filters-SG}
+  - {name: 🗳 低倍率节点, <<: *proxies_urltest_conf, use: [AirPort1], *proxy-filters-LOW-MAG}
+  - {name: 🇭🇰 香港, <<: *proxies_urltest_conf, use: [AirPort1, AirPort2], filter: *proxy-filters-HK}
+  - {name: 🇸🇬 新加坡, <<: *proxies_urltest_conf, use: [AirPort1, AirPort2], filter: *proxy-filters-SG}
   - {name: 🇨🇳 台湾, <<: *proxies_urltest_conf, use: [AirPort1, AirPort2], filter: *proxy-filters-TW}
   - {name: 🇯🇵 日本, <<: *proxies_urltest_conf, use: [AirPort1, AirPort2], filter: *proxy-filters-JP}
   - {name: 🇺🇸 美国, <<: *proxies_urltest_conf, use: [AirPort1, AirPort2], filter: *proxy-filters-US}
@@ -235,15 +236,15 @@ rule-providers:
   Proxy:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/Proxy.yaml
-    path: ./providers/rule-provider_Proxy_2.yaml
+    path: ./providers/rule-provider_Proxy.yaml
   Direct:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/Direct.yaml
-    path: ./providers/rule-provider_Direct_2.yaml
+    path: ./providers/rule-provider_Direct.yaml
   Direct_2:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml
-    path: ./providers/rule-provider_Direct_3.yaml
+    path: ./providers/rule-provider_Direct_2.yaml
   Advertising_Domain:
     <<: *rule_providers_domain
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Domain.yaml

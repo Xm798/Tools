@@ -236,132 +236,132 @@ rule-providers:
   Proxy:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/Proxy.yaml
-    path: ./providers/rule-provider_Proxy.yaml
+    path: ./rule_providers/Proxy.yaml
   Direct:
     <<: *rule_providers_classical
-    url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/Direct.yaml
-    path: ./providers/rule-provider_Direct.yaml
+    url: https://cdn.jwsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/Direct.yaml
+    path: ./rule_providers/Direct.yaml
   Direct_2:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Direct/Direct.yaml
-    path: ./providers/rule-provider_Direct_2.yaml
+    path: ./rule_providers/Direct_2.yaml
   Advertising_Domain:
     <<: *rule_providers_domain
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising_Domain.yaml
-    path: ./providers/rule-provider_Advertising_Domain.yaml
+    path: ./rule_providers/Advertising_Domain.yaml
   Advertising:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Advertising/Advertising.yaml
-    path: ./providers/rule-provider_Advertising.yaml
+    path: ./rule_providers/Advertising.yaml
   Scholar:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/Scholar.yaml
-    path: ./providers/rule-provider_Scholar.yaml
+    path: ./rule_providers/Scholar.yaml
   Scholar_2:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Scholar/Scholar.yaml
-    path: ./providers/rule-provider_Scholar_2.yaml
+    path: ./rule_providers/Scholar_2.yaml
   EHGallery:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/EHGallery/EHGallery.yaml
-    path: ./providers/rule-provider_EHGallery.yaml
+    path: ./rule_providers/EHGallery.yaml
   Lark:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/Lark.yaml
-    path: ./providers/rule-provider_Lark.yaml
+    path: ./rule_providers/Lark.yaml
   AI:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/AI.yaml
-    path: ./providers/rule-provider_AI.yaml
+    path: ./rule_providers/AI.yaml
   PT:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/Xm798/Tools@latest/ProxyRules/Clash/PT.yaml
-    path: ./providers/rule-provider_PT.yaml
+    path: ./rule_providers/PT.yaml
   Mail:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Mail/Mail.yaml
-    path: ./providers/rule-provider_Mail.yaml
+    path: ./rule_providers/Mail.yaml
   GoogleDrive:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GoogleDrive/GoogleDrive.yaml
-    path: ./providers/rule-provider_Drive.yaml
+    path: ./rule_providers/Drive.yaml
   DropBox:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Dropbox/Dropbox.yaml
-    path: ./providers/rule-provider_DropBox.yaml
+    path: ./rule_providers/DropBox.yaml
   Telegram:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
-    path: ./providers/rule-provider_Telegram.yaml
+    path: ./rule_providers/Telegram.yaml
   Emby:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Emby/Emby.yaml
-    path: ./providers/rule-provider_Emby.yaml
+    path: ./rule_providers/Emby.yaml
   AsianMedia:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AsianMedia/AsianMedia.yaml
-    path: ./providers/rule-provider_AsianMedia.yaml
+    path: ./rule_providers/AsianMedia.yaml
   GlobalMedia:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml
-    path: ./providers/rule-provider_GlobalMedia.yaml
+    path: ./rule_providers/GlobalMedia.yaml
   WeChat:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/WeChat/WeChat.yaml
-    path: ./providers/rule-provider_WeChat.yaml
+    path: ./rule_providers/WeChat.yaml
   ProxyLite:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ProxyLite/ProxyLite.yaml
-    path: ./providers/rule-provider_ProxyLite.yaml
+    path: ./rule_providers/ProxyLite.yaml
   Speedtest:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Speedtest/Speedtest.yaml
-    path: ./providers/rule-provider_Speedtest.yaml
+    path: ./rule_providers/Speedtest.yaml
   Game:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Game/Game.yaml
-    path: ./providers/rule-provider_Game.yaml
+    path: ./rule_providers/Game.yaml
   Steam:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
-    path: ./providers/rule-provider_Steam.yaml
+    path: ./rule_providers/Steam.yaml
   Epic:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Epic/Epic.yaml
-    path: ./providers/rule-provider_Epic.yaml
+    path: ./rule_providers/Epic.yaml
   Google:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml
-    path: ./providers/rule-provider_Google.yaml
+    path: ./rule_providers/Google.yaml
   Microsoft:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
-    path: ./providers/rule-provider_Microsoft.yaml
+    path: ./rule_providers/Microsoft.yaml
   Apple:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
-    path: ./providers/rule-provider_Apple.yaml
+    path: ./rule_providers/Apple.yaml
   Global_Domain:
     <<: *rule_providers_domain
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global_Domain.yaml
-    path: ./providers/rule-provider_Global_Domain.yaml
+    path: ./rule_providers/Global_Domain.yaml
   Global:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Global/Global.yaml
-    path: ./providers/rule-provider_Global.yaml
+    path: ./rule_providers/Global.yaml
   Lan:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
-    path: ./providers/rule-provider_Lan.yaml
+    path: ./rule_providers/Lan.yaml
   PrivateTracker:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/PrivateTracker/PrivateTracker.yaml
-    path: ./providers/rule-provider_PrivateTracker.yaml
+    path: ./rule_providers/PrivateTracker.yaml
   China_Classical:
     <<: *rule_providers_classical
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China_Classical.yaml
-    path: ./providers/rule-provider_China_Classical.yaml
+    path: ./rule_providers/China_Classical.yaml
   China_IPs:
     <<: *rule_providers_ipcidr
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaIPs/ChinaIPs_IP.yaml
-    path: ./providers/rule-provider_China_IPs.yaml
+    path: ./rule_providers/China_IPs.yaml

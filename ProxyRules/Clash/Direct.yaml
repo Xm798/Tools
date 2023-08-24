@@ -13,12 +13,13 @@ payload:
   - DOMAIN-SUFFIX,bce.baidu.com
   - DOMAIN-SUFFIX,parallels.com
   - DOMAIN-SUFFIX,account-cn.alibabacloud.com
+  - DOMAIN-SUFFIX,discovery-maven.branch.io
+  - DOMAIN-SUFFIX,ikea.cn
   - DOMAIN-SUFFIX,console.aliyun.com
   - DOMAIN-SUFFIX,usercenter2.aliyun.com
   - DOMAIN-SUFFIX,developer.aliyun.com
   - DOMAIN-SUFFIX,plex.direct
   - DOMAIN-SUFFIX,plex.tv
-  - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,files.1drv.com

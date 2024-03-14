@@ -11,7 +11,7 @@ DOMAIN-SUFFIX, ilolicon.com
 DOMAIN-SUFFIX, baconbits.org
 # Aither
 DOMAIN-SUFFIX, aither.cc
-# kamept 
+# kamept
 DOMAIN-SUFFIX, kamept.com
 # NicePT
 DOMAIN-SUFFIX, nicept.net
@@ -33,8 +33,6 @@ DOMAIN-SUFFIX, pttime.org
 DOMAIN-SUFFIX, animebytes.tv
 # OPS
 DOMAIN-SUFFIX, orpheus.network
-# M-Team
-DOMAIN-SUFFIX, kp.m-team.cc
 # SkyeySnow
 DOMAIN-SUFFIX, skyey2.com
 # telly.wtf
@@ -61,7 +59,7 @@ DOMAIN-SUFFIX, 52pt.site
 DOMAIN-SUFFIX, hdtime.org
 # 伊甸园
 DOMAIN-SUFFIX, pt.hdbd.us
-# 象站
+# 象岛
 DOMAIN-SUFFIX, ptvicomo.net
 # MDU
 DOMAIN-SUFFIX, monikadesign.uk
@@ -113,6 +111,8 @@ DOMAIN-SUFFIX, jptvts.us
 DOMAIN-SUFFIX, hdvideo.one
 # 国语视界
 DOMAIN-SUFFIX, cnlang.org
+# ECUSTPT
+DOMAIN-SUFFIX, public.ecustpt.eu.org
 # filept
 DOMAIN-SUFFIX, filept.com
 # CHDBits
@@ -151,6 +151,8 @@ DOMAIN-SUFFIX, sportscult.org
 DOMAIN-SUFFIX, pt.keepfrds.com
 # 北洋园
 DOMAIN-SUFFIX, tjupt.org
+# KIMOJI
+DOMAIN-SUFFIX, kimoji.club
 # FSM
 DOMAIN-SUFFIX, fsm.name
 # TorrentCCF
@@ -171,8 +173,9 @@ DOMAIN-SUFFIX, redacted.ch
 DOMAIN-SUFFIX, gaytor.rent
 # TeamHD
 DOMAIN-SUFFIX, teamhd.org
-# 影
-DOMAIN-SUFFIX, shadowflow.org
+# M-Team
+DOMAIN-SUFFIX, m-team.io
+DOMAIN-SUFFIX, m-team.cc
 # MTV
 DOMAIN-SUFFIX, morethantv.me
 # ZHUQUE
@@ -195,6 +198,8 @@ DOMAIN-SUFFIX, jptv.club
 DOMAIN-SUFFIX, pterclub.com
 # PTHome
 DOMAIN-SUFFIX, pthome.net
+# 星空
+DOMAIN-SUFFIX, star-space.net
 # Blutopia
 DOMAIN-SUFFIX, blutopia.cc
 # HUNO
@@ -211,7 +216,7 @@ DOMAIN-SUFFIX, desitorrents.tv
 DOMAIN-SUFFIX, greatposterwall.com
 # SugoiMusic
 DOMAIN-SUFFIX, sugoimusic.me
-# agsv
+# AGSV
 DOMAIN-SUFFIX, agsvpt.com
 # Concertos
 DOMAIN-SUFFIX, concertos.live
@@ -220,7 +225,7 @@ DOMAIN-SUFFIX, brokenstones.is
 # XTR
 DOMAIN-SUFFIX, extremlymtorrents.ws
 # U2
-DOMAIN, u2.dmhy.org
+DOMAIN-SUFFIX, dmhy.org
 # PT分享站
 DOMAIN-SUFFIX, pt.itzmx.com
 # PTChina
@@ -235,6 +240,8 @@ DOMAIN-SUFFIX, totheglory.im
 DOMAIN-SUFFIX, pt.btschool.club
 # CarPT
 DOMAIN-SUFFIX, carpt.net
+# SharkPT
+DOMAIN-SUFFIX, sharkpt.net
 # PTLSP
 DOMAIN-SUFFIX, ptlsp.com
 # GTorg
@@ -301,6 +308,8 @@ DOMAIN-SUFFIX, discfan.net
 DOMAIN-SUFFIX, oldtoons.world
 # TorrentLeech
 DOMAIN-SUFFIX, torrentleech.org
+# 青蛙
+DOMAIN-SUFFIX, new.qingwa.pro
 # OshenPT
 DOMAIN-SUFFIX, oshen.win
 # HDATMOS
@@ -316,6 +325,4 @@ DOMAIN-SUFFIX, nebulance.io
 # Azusa
 DOMAIN-SUFFIX, azusa.wiki
 # 2xFree
-DOMAIN, pt.2xfree.org
-# SharkPT
-DOMAIN-SUFFIX, sharkpt.net
+DOMAIN-SUFFIX, 2xfree.org

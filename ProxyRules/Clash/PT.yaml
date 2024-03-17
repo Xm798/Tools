@@ -15,7 +15,6 @@ payload:
   - DOMAIN-SUFFIX, pttime.org
   - DOMAIN-SUFFIX, animebytes.tv
   - DOMAIN-SUFFIX, orpheus.network
-  - DOMAIN-SUFFIX, kp.m-team.cc
   - DOMAIN-SUFFIX, skyey2.com
   - DOMAIN-SUFFIX, telly.wtf
   - DOMAIN-SUFFIX, hdchina.org
@@ -55,6 +54,7 @@ payload:
   - DOMAIN-SUFFIX, jptvts.us
   - DOMAIN-SUFFIX, hdvideo.one
   - DOMAIN-SUFFIX, cnlang.org
+  - DOMAIN-SUFFIX, public.ecustpt.eu.org
   - DOMAIN-SUFFIX, filept.com
   - DOMAIN-SUFFIX, ptchdbits.co
   - DOMAIN-SUFFIX, dajiao.cyou
@@ -74,6 +74,7 @@ payload:
   - DOMAIN-SUFFIX, sportscult.org
   - DOMAIN-SUFFIX, pt.keepfrds.com
   - DOMAIN-SUFFIX, tjupt.org
+  - DOMAIN-SUFFIX, kimoji.club
   - DOMAIN-SUFFIX, fsm.name
   - DOMAIN-SUFFIX, et8.org
   - DOMAIN-SUFFIX, open.cd
@@ -84,7 +85,8 @@ payload:
   - DOMAIN-SUFFIX, redacted.ch
   - DOMAIN-SUFFIX, gaytor.rent
   - DOMAIN-SUFFIX, teamhd.org
-  - DOMAIN-SUFFIX, shadowflow.org
+  - DOMAIN-SUFFIX, m-team.io
+  - DOMAIN-SUFFIX, m-team.cc
   - DOMAIN-SUFFIX, morethantv.me
   - DOMAIN-SUFFIX, zhuque.in
   - DOMAIN-SUFFIX, bemaniso.ws
@@ -96,6 +98,7 @@ payload:
   - DOMAIN-SUFFIX, jptv.club
   - DOMAIN-SUFFIX, pterclub.com
   - DOMAIN-SUFFIX, pthome.net
+  - DOMAIN-SUFFIX, star-space.net
   - DOMAIN-SUFFIX, blutopia.cc
   - DOMAIN-SUFFIX, hawke.uno
   - DOMAIN-SUFFIX, cyanbug.net
@@ -108,7 +111,7 @@ payload:
   - DOMAIN-SUFFIX, concertos.live
   - DOMAIN-SUFFIX, brokenstones.is
   - DOMAIN-SUFFIX, extremlymtorrents.ws
-  - DOMAIN, u2.dmhy.org
+  - DOMAIN-SUFFIX, dmhy.org
   - DOMAIN-SUFFIX, pt.itzmx.com
   - DOMAIN-SUFFIX, ptchina.org
   - DOMAIN-SUFFIX, rousi.zip
@@ -116,6 +119,7 @@ payload:
   - DOMAIN-SUFFIX, totheglory.im
   - DOMAIN-SUFFIX, pt.btschool.club
   - DOMAIN-SUFFIX, carpt.net
+  - DOMAIN-SUFFIX, sharkpt.net
   - DOMAIN-SUFFIX, ptlsp.com
   - DOMAIN-SUFFIX, gay-torrents.org
   - DOMAIN-SUFFIX, icc2022.com
@@ -149,6 +153,7 @@ payload:
   - DOMAIN-SUFFIX, discfan.net
   - DOMAIN-SUFFIX, oldtoons.world
   - DOMAIN-SUFFIX, torrentleech.org
+  - DOMAIN-SUFFIX, new.qingwa.pro
   - DOMAIN-SUFFIX, oshen.win
   - DOMAIN-SUFFIX, hdatmos.club
   - DOMAIN-SUFFIX, hdcity.city
@@ -156,5 +161,4 @@ payload:
   - DOMAIN-SUFFIX, world-in-hd.net
   - DOMAIN-SUFFIX, nebulance.io
   - DOMAIN-SUFFIX, azusa.wiki
-  - DOMAIN, pt.2xfree.org
-  - DOMAIN-SUFFIX, sharkpt.net
+  - DOMAIN-SUFFIX, 2xfree.org

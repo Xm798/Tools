@@ -23,3 +23,4 @@ payload:
   - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,storage.live.com
   - DOMAIN-SUFFIX,files.1drv.com
+  - DOMAIN,smtppro.zoho.com

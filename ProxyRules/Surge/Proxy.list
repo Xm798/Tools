@@ -1,8 +1,6 @@
 # Rules for Proxy
 
 DOMAIN-SUFFIX,learnku.com
-DOMAIN,translate.googleapis.com
 DOMAIN-SUFFIX,loli.net
 DOMAIN,fonts.googleapis.com
 DOMAIN-SUFFIX,vk.com
-IP-ASN,20940,no-resolve

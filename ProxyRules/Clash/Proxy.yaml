@@ -1,6 +1,5 @@
 payload:
   - DOMAIN-SUFFIX,learnku.com
-  - DOMAIN,translate.googleapis.com
   - DOMAIN-SUFFIX,loli.net
   - DOMAIN,fonts.googleapis.com
   - DOMAIN-SUFFIX,vk.com

@@ -23,8 +23,12 @@ DOMAIN-SUFFIX,console.aliyun.com
 DOMAIN-SUFFIX,usercenter2.aliyun.com
 DOMAIN-SUFFIX,developer.aliyun.com
 
-#Plex
+# Plex
 DOMAIN-SUFFIX,plex.direct
 
-#SMTP
+# SMTP
 DOMAIN,smtppro.zoho.com
+
+# BOCHK
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIX,bochk100.com

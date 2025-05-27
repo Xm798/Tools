@@ -32,3 +32,6 @@ DOMAIN,smtppro.zoho.com
 # BOCHK
 DOMAIN-SUFFIX,bochk.com
 DOMAIN-SUFFIX,bochk100.com
+
+# 美团
+IP-CIDR,202.90.110.46/32,no-resolve

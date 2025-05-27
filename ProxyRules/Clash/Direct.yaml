@@ -22,3 +22,4 @@ payload:
   - DOMAIN,smtppro.zoho.com
   - DOMAIN-SUFFIX,bochk.com
   - DOMAIN-SUFFIX,bochk100.com
+  - IP-CIDR,202.90.110.46/32,no-resolve
